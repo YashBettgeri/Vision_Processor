@@ -1,0 +1,65 @@
+{
+   comment_0: "Add AXI-S IP Here",
+   comment_1: "Connect M_AXIS_MM2S to the AXI_S Interface to the AXIS of our IP",
+   comment_2: "Connect AXI-S Output of our IP here",
+   comment_3: "Connect the Interrupt of our IP Here to In0[0:0]",
+   comment_4: "Add Debug Core Here",
+   commentid: "comment_0|comment_1|comment_2|comment_3|comment_4|",
+   fillcolor_comment_1: "",
+   fillcolor_comment_4: "",
+   font_comment_0: "10",
+   font_comment_1: "12",
+   font_comment_2: "10",
+   font_comment_3: "10",
+   font_comment_4: "12",
+   guistr: "# # String gsaved with Nlview 6.6.8  2016-12-21 bk=1.3817 VDI=40 GEI=35 GUI=JA:1.6
+#  -string -flagsOSRD
+preplace port DDR -pg 1 -y 460 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -y 480 -defaultsOSRD
+preplace inst axi_dma_0 -pg 1 -lvl 3 -y 350 -defaultsOSRD
+preplace inst Image_Data_Buffer_0 -pg 1 -lvl 4 -y 850 -defaultsOSRD
+preplace inst axi_smc -pg 1 -lvl 5 -y 520 -defaultsOSRD
+preplace inst xlconcat_0 -pg 1 -lvl 3 -y 750 -defaultsOSRD
+preplace inst axis_dwidth_converter_0 -pg 1 -lvl 2 -y 430 -defaultsOSRD
+preplace inst ps7_0_axi_periph -pg 1 -lvl 2 -y 130 -defaultsOSRD
+preplace inst rst_ps7_0_100M -pg 1 -lvl 2 -y 590 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 1 -y 540 -defaultsOSRD
+preplace netloc processing_system7_0_DDR 1 1 5 230J 680 670J 670 NJ 670 NJ 670 1710J
+preplace netloc axis_dwidth_converter_0_M_AXIS 1 2 1 640J
+preplace netloc processing_system7_0_M_AXI_GP0 1 1 1 210
+preplace netloc rst_ps7_0_100M_peripheral_aresetn 1 1 4 260 700 650 550 1110 550 N
+preplace netloc axi_smc_M00_AXI 1 0 6 -230 690 NJ 690 660J 600 NJ 600 NJ 600 1700
+preplace netloc processing_system7_0_FCLK_RESET0_N 1 1 1 250
+preplace netloc Image_Data_Buffer_0_o_intr 1 2 3 690 660 NJ 660 1410
+preplace netloc axi_dma_0_s2mm_introut 1 2 2 680 460 1080
+preplace netloc axi_dma_0_M_AXI_MM2S 1 3 2 NJ 290 1410
+preplace netloc xlconcat_0_dout 1 0 4 -220 710 NJ 710 670J 690 1080
+preplace netloc processing_system7_0_FIXED_IO 1 1 5 220J 500 640J 470 1110J 440 NJ 440 1700J
+preplace netloc axi_dma_0_M_AXI_S2MM 1 3 2 NJ 310 1400
+preplace netloc processing_system7_0_FCLK_CLK0 1 0 5 -240 410 240 250 650 240 1100 530 N
+preplace netloc axi_dma_0_M_AXIS_MM2S 1 3 1 1090
+preplace netloc ps7_0_axi_periph_M00_AXI 1 2 1 640
+preplace netloc rst_ps7_0_100M_interconnect_aresetn 1 1 2 260 10 630
+preplace cgraphic comment_3 place abs 319 780 textcolor 4 linecolor 3 linewidth 2
+preplace cgraphic comment_2 place abs 14 298 textcolor 4 linecolor 3 linewidth 2
+preplace cgraphic comment_1 place abs 963 995 textcolor 4 linecolor 3
+preplace cgraphic comment_0 place abs 866 1541 textcolor 4 linecolor 3 linewidth 2
+preplace cgraphic comment_4 place abs 1223 39 textcolor 4 linecolor 3 linewidth 1
+levelinfo -pg 1 -260 -10 450 880 1260 1560 1730 -top -10 -bot 1580
+",
+   linecolor_comment_1: "",
+   linecolor_comment_4: "",
+   textcolor_comment_1: "",
+   textcolor_comment_4: "",
+}
+{
+   da_axi4_cnt: "3",
+   da_ps7_cnt: "1",
+}
+{
+   /comment_0: "comment_0",
+   /comment_1: "comment_1",
+   /comment_2: "comment_2",
+   /comment_3: "comment_3",
+   /comment_4: "comment_4",
+}

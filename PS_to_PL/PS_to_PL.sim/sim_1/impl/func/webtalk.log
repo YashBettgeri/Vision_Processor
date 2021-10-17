@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Webtalk v2017.1 (64-bit)
+# SW Build 1846317 on Fri Apr 14 18:54:47 MDT 2017
+# IP Build 1846188 on Fri Apr 14 20:52:08 MDT 2017
+# Start of session at: Sun Oct 17 14:42:18 2021
+# Process ID: 11061
+# Current directory: /home/akshat/Documents/Horus_VPU/Basics/PS_to_PL/PS_to_PL.sim/sim_1/impl/func
+# Command line: wbtcv -mode batch -source /home/akshat/Documents/Horus_VPU/Basics/PS_to_PL/PS_to_PL.sim/sim_1/impl/func/xsim.dir/design_1_wrapper_func_impl/webtalk/xsim_webtalk.tcl -notrace
+# Log file: /home/akshat/Documents/Horus_VPU/Basics/PS_to_PL/PS_to_PL.sim/sim_1/impl/func/webtalk.log
+# Journal file: /home/akshat/Documents/Horus_VPU/Basics/PS_to_PL/PS_to_PL.sim/sim_1/impl/func/webtalk.jou
+#-----------------------------------------------------------
+source /home/akshat/Documents/Horus_VPU/Basics/PS_to_PL/PS_to_PL.sim/sim_1/impl/func/xsim.dir/design_1_wrapper_func_impl/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Sun Oct 17 14:42:20 2021...
